@@ -38,7 +38,6 @@ namespace Tyuiu.CherepanovVS.Sprint1.Task1.V19
             Console.WriteLine("****************************************************************************");
             Console.WriteLine(ret.Calculate(x,y));
             Console.ReadLine();
-
         }
     }
 }

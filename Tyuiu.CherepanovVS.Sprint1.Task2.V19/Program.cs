@@ -22,19 +22,19 @@ namespace Tyuiu.CherepanovVS.Sprint1.Task2.V19
             Console.WriteLine("*Выполнил: Черепанов Вячеслав Сергеевич| ПКТб-23-1                         *");
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("*УСЛОВИЕ:                                                                  *");
-            Console.WriteLine("*Написать программу, которая вычисляет квадрат заданного числа             *");
-            Console.WriteLine("*                                                                          *");
+            Console.WriteLine("*Написать программу, которая запрашивает у пользователя исходные данные,   *");
+            Console.WriteLine("*выполняет указанные расчёты и печатает результат на экране.                                                                          *");
             Console.WriteLine("*                                                                          *");
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("*ИСХОДНЫЕ ДАННЫЕ:                                                          *");
             Console.WriteLine("****************************************************************************");
             int x;
-            Console.WriteLine("Введите значение x=");
+            Console.WriteLine("Введите расстояние в километрах");
             x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
             Console.WriteLine("****************************************************************************");
-            Console.WriteLine("Квадрат числа x = " + ds.ConvertInchToKm(x));
+            Console.WriteLine("Расстояние в милях = " + ds.ConvertInchToKm(x));
             Console.ReadLine();
         }
     }

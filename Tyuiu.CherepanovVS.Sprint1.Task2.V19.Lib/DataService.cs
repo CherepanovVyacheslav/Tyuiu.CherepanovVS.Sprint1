@@ -12,7 +12,7 @@ namespace Tyuiu.CherepanovVS.Sprint1.Task2.V19.Lib
     {
         public double ConvertInchToKm(int value)
         {
-            return (value * value);
+            return (value * 0.621);
         }
     }
 }

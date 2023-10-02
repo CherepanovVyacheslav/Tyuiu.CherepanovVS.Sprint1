@@ -13,7 +13,7 @@ namespace Tyuiu.CherepanovVS.Sprint1.Task2.V19.Test
             DataService ds = new DataService();
             int x = 2;
             var res = ds.ConvertInchToKm(x);
-            Assert.AreEqual(res, 4);
+            Assert.AreEqual(res, 1.242);
         }
     }
 }

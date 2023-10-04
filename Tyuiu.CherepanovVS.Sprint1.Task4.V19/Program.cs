@@ -40,7 +40,6 @@ namespace Tyuiu.CherepanovVS.Sprint1.Task4.V19
             double res2 = Math.Round(res, 3); 
             Console.WriteLine("(x+y) / (x-2) = " + res2);
             Console.ReadLine();
-
         }
     }
 }

@@ -13,6 +13,7 @@ namespace Tyuiu.CherepanovVS.Sprint1.Task3.V4.Lib
         public double PurchaseAmount(double priceNotebook, double priceCover, int quantity)
         {
             return (priceNotebook * quantity + priceCover * quantity);
+
         }
     }
 }

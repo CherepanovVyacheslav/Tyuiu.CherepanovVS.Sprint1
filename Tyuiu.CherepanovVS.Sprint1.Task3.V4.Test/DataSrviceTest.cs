@@ -17,7 +17,6 @@ namespace Tyuiu.CherepanovVS.Sprint1.Task3.V4.Test
             double wate = 22.75;
             var res = ds.PurchaseAmount(priceNotebook, priceCover, quantity);
             Assert.AreEqual(wate, res);
-
         }
     }
 }
